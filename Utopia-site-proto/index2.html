@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASSERO | 지키는 자들</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#home" class="logo" aria-label="ASSERO 홈">
+        <span class="logo-emblem">⬡</span>
+        <span class="logo-text">ASSERO</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="주요 메뉴">
+        <ul>
+          <li><a href="#home"    class="nav-link">홈</a></li>
+          <li><a href="#about"   class="nav-link">소개</a></li>
+          <li><a href="#board"   class="nav-link">게시판</a></li>
+          <li><a href="#careers" class="nav-link">채용&amp;견학</a></li>
+          <li><a href="#contact" class="nav-link">의뢰 문의</a></li>
+          <li><a href="#request" class="nav-link cta-nav">의뢰 접수</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== SECTION 1 : HOME ===== -->
+    <section id="home" class="section section-home">
+      <div class="home-bg-grid" aria-hidden="true"></div>
+      <div class="home-scan-line" aria-hidden="true"></div>
+      <div class="home-content">
+        <p class="home-eyebrow">OFFICIAL HERO ORGANIZATION · UTOPIA</p>
+        <h1 class="home-title">
+          <span class="title-line">우리는</span>
+          <span class="title-line accent">지키는 자들</span>
+          <span class="title-line">입니다.</span>
+        </h1>
+        <p class="home-slogan">평화로운 일상을 위하여 — 언제나 안심하고 믿으십시오.</p>
+        <div class="home-actions">
+          <a href="#about"   class="btn btn-primary">단체 소개</a>
+          <a href="#request" class="btn btn-ghost">의뢰 접수하기</a>
+        </div>
+        <div class="home-stats" aria-label="아세로 운영 현황">
+          <div class="stat-item">
+            <span class="stat-num" data-target="247">0</span>
+            <span class="stat-label">소속 히어로</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="98">0</span><span class="stat-suffix">%</span>
+            <span class="stat-label">의뢰 성공률</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="4">0</span>
+            <span class="stat-label">창립 후 년수</span>
+          </div>
+        </div>
+      </div>
+      <div class="home-emblem-bg" aria-hidden="true">ASSERO</div>
+    </section>
+
+    <!-- ===== SECTION 2 : ABOUT ===== -->
+    <section id="about" class="section section-about">
+      <div class="section-inner">
+        <div class="section-tag">ABOUT</div>
+        <h2 class="section-title">HERO — 지키는 자.</h2>
+        <div class="about-grid">
+          <div class="about-emblem-col" aria-hidden="true">
+            <div class="emblem-ring outer"></div>
+            <div class="emblem-ring mid"></div>
+            <div class="emblem-ring inner"></div>
+            <span class="emblem-core">⬡</span>
+          </div>
+          <div class="about-text-col">
+            <p class="about-body">
+              종전 이후 12년, <strong>'이드'</strong>는 여전히 사회 문제로 떠올랐으나 히어로 시스템은 암흑기를 지내고 있었습니다.
+              그 때 비리 타도를 외치며 새롭게 단체를 설립한 사람이 있습니다.
+              현 아세로의 수장, <strong>유서진</strong> 님입니다.
+            </p>
+            <p class="about-body">
+              <strong>아세로</strong>는 고대 언어에서 유래한 말로, <em>권리를 주장한다</em>는 뜻입니다.
+              우리는 소중한 유토피아 국민 여러분을 위해 싸우고 있습니다.
+            </p>
+            <blockquote class="about-quote">
+              "우리는 지키는 자들입니다.<br />
+              언제나 안심하고 믿으십시오.<br />
+              평화로운 일상을 위하여!"
+            </blockquote>
+            <div class="about-tags">
+              <span class="tag">정의</span>
+              <span class="tag">투명성</span>
+              <span class="tag">보호</span>
+              <span class="tag">유토피아</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 3 : BOARD ===== -->
+    <section id="board" class="section section-board">
+      <div class="section-inner">
+        <div class="section-tag">BOARD</div>
+        <h2 class="section-title">공지사항 &amp; 활동 보고</h2>
+        <div class="board-tabs" role="tablist">
+          <button class="tab-btn active" role="tab" aria-selected="true"  data-tab="notice">공지사항</button>
+          <button class="tab-btn"        role="tab" aria-selected="false" data-tab="report">활동 보고서</button>
+        </div>
+
+        <!-- 공지사항 -->
+        <div class="board-list" id="tab-notice" role="tabpanel">
+          <article class="board-item pinned">
+            <span class="board-badge pin">📌 중요</span>
+            <div class="board-meta">
+              <span class="board-date">2099.04.18</span>
+            </div>
+            <h3 class="board-item-title">2099년 하반기 신규 히어로 모집 공고</h3>
+            <p class="board-item-desc">이번 하반기 신규 히어로 채용 면접 일정 및 지원 자격 안내입니다. 지원 희망자는 채용&amp;견학 섹션을 확인해 주세요.</p>
+          </article>
+          <article class="board-item">
+            <span class="board-badge">공지</span>
+            <div class="board-meta"><span class="board-date">2099.04.10</span></div>
+            <h3 class="board-item-title">5월 정기 사내 견학 접수 안내</h3>
+            <p class="board-item-desc">매월 진행되는 정기 견학 프로그램 신청 창구가 열렸습니다. 사전 등록 필수입니다.</p>
+          </article>
+          <article class="board-item">
+            <span class="board-badge">공지</span>
+            <div class="board-meta"><span class="board-date">2099.03.22</span></div>
+            <h3 class="board-item-title">의뢰 분류 기준 개정 안내 (기본/위험)</h3>
+            <p class="board-item-desc">2099년 4월 1일부터 의뢰 분류 기준이 개정됩니다. 변경 사항을 반드시 확인하시기 바랍니다.</p>
+          </article>
+          <article class="board-item">
+            <span class="board-badge">안내</span>
+            <div class="board-meta"><span class="board-date">2099.03.05</span></div>
+            <h3 class="board-item-title">ASSERO 공식 웹메일 주소 변경 안내</h3>
+            <p class="board-item-desc">공식 웹메일이 asseroofiicial@aagmail.com 으로 변경되었습니다. 기존 주소로의 메일은 자동 전달됩니다.</p>
+          </article>
+        </div>
+
+        <!-- 활동 보고서 -->
+        <div class="board-list hidden" id="tab-report" role="tabpanel">
+          <article class="board-item report">
+            <span class="board-badge success">✔ 완료</span>
+            <div class="board-meta"><span class="board-date">2099.04.15</span><span class="board-hero">담당: 전투 및 백업 담당1팀</span></div>
+            <h3 class="board-item-title">[위험의뢰 #2099-047] 워터시티 북부 지구 크리처 출몰 진압 보고</h3>
+            <p class="board-item-desc">4월 14일 오후 11시 북부 지구에서 발생한 소형 크리처 3체를 성공적으로 제압하였습니다. 인명 피해 없음.</p>
+          </article>
+          <article class="board-item report">
+            <span class="board-badge success">✔ 완료</span>
+            <div class="board-meta"><span class="board-date">2099.04.08</span><span class="board-hero">담당자: 레오 츠바사</span></div>
+            <h3 class="board-item-title">[기본의뢰 #2099-039] 시내 학교 주변 순찰 지원 완료</h3>
+            <p class="board-item-desc">워터시티 교육청 요청에 따른 학교 주변 1주일간 정기 순찰 의뢰를 완료하였습니다.</p>
+          </article>
+          <article class="board-item report">
+            <span class="board-badge ongoing">⚡ 진행중</span>
+            <div class="board-meta"><span class="board-date">2099.04.20</span><span class="board-hero">담당: 외근전담팀 네이처</span></div>
+            <h3 class="board-item-title">[위험의뢰 #2099-051] 항구 지구 광역 이상 징후 조사</h3>
+            <p class="board-item-desc">항구 지구 일대 대규모 이상 징후에 대한 현장 조사가 진행 중입니다. 주민 접근 자제 요청.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 4 : CAREERS & TOUR ===== -->
+    <section id="careers" class="section section-careers">
+      <div class="section-inner">
+        <div class="section-tag">CAREERS &amp; TOUR</div>
+        <h2 class="section-title">채용 &amp; 견학</h2>
+        <p class="section-lead">아세로와 함께 유토피아를 지키십시오. 새로운 동료를 기다립니다.</p>
+        <div class="careers-grid">
+
+          <!-- 채용 카드 -->
+          <div class="career-card">
+            <div class="career-card-icon" aria-hidden="true">🛡</div>
+            <h3 class="career-card-title">히어로 채용 면접 신청</h3>
+            <p class="career-card-desc">
+              이드 능력 보유자 또는 전투 훈련 이수자라면 누구든 지원할 수 있습니다.
+              서류 심사 → 능력 평가 → 최종 면접의 3단계로 진행됩니다.
+            </p>
+            <ul class="career-list">
+              <li>지원 자격: 유토피아 국적 보유자, 만 18세 이상</li>
+              <li>모집 분야: 전투, 지원, 분석, 의료</li>
+              <li>접수 기간: 2099.05.01 ~ 2099.05.31</li>
+            </ul>
+            <button class="btn btn-primary" id="btn-apply" onclick="openModal('apply')">채용 면접 신청하기</button>
+          </div>
+
+          <!-- 견학 카드 -->
+          <div class="career-card">
+            <div class="career-card-icon" aria-hidden="true">🔭</div>
+            <h3 class="career-card-title">사내 정기 견학 접수</h3>
+            <p class="career-card-desc">
+              아세로 본부를 직접 방문해 히어로들의 일상과 훈련 시설을 체험해 보세요.
+              단체 및 개인 모두 신청 가능합니다.
+            </p>
+            <ul class="career-list">
+              <li>일정: 매월 셋째 주 토요일 오전 10시</li>
+              <li>정원: 회당 최대 30명</li>
+              <li>소요 시간: 약 2시간 30분</li>
+            </ul>
+            <button class="btn btn-ghost" id="btn-tour" onclick="openModal('tour')">견학 접수하기</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 5 : CONTACT ===== -->
+    <section id="contact" class="section section-contact">
+      <div class="section-inner">
+        <div class="section-tag">CONTACT</div>
+        <h2 class="section-title">의뢰 문의</h2>
+        <p class="section-lead">아래 연락처로 직접 문의하시거나, 하단의 의뢰 접수 폼을 이용하십시오.</p>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-icon" aria-hidden="true">📍</div>
+            <h3 class="contact-label">주소</h3>
+            <p class="contact-value">5 Neverdown Street,<br />13-Story Building,<br />Water City, Utopia</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon" aria-hidden="true">✉</div>
+            <h3 class="contact-label">웹메일</h3>
+            <p class="contact-value">
+              <a href="mailto:asseroofiicial@aagmail.com" class="contact-link">asseroofiicial@aagmail.com</a>
+            </p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon" aria-hidden="true">📞</div>
+            <h3 class="contact-label">연락처</h3>
+            <p class="contact-value">
+              <a href="tel:1234567890" class="contact-link">123-456-7890</a>
+            </p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon" aria-hidden="true">🕐</div>
+            <h3 class="contact-label">운영 시간</h3>
+            <p class="contact-value">24시간 / 365일<br /><small>긴급 의뢰는 언제든 접수 가능</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 6 : REQUEST ===== -->
+    <section id="request" class="section section-request">
+      <div class="section-inner">
+        <div class="section-tag">REQUEST</div>
+        <h2 class="section-title">간단 의뢰 접수</h2>
+        <p class="section-lead">아래 양식을 작성하시면 담당 히어로가 신속하게 연락드립니다.</p>
+        <form class="request-form" id="request-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="req-name">의뢰인 성함 <span class="required" aria-hidden="true">*</span></label>
+              <input type="text" id="req-name" name="name" placeholder="홍길동" autocomplete="name" required />
+              <span class="form-error" id="err-name" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="req-phone">연락처 <span class="required" aria-hidden="true">*</span></label>
+              <input type="tel" id="req-phone" name="phone" placeholder="010-0000-0000" autocomplete="tel" required />
+              <span class="form-error" id="err-phone" role="alert"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="req-type">의뢰 분류 <span class="required" aria-hidden="true">*</span></label>
+            <div class="select-wrapper">
+              <select id="req-type" name="type" required>
+                <option value="" disabled selected>분류를 선택해 주세요</option>
+                <option value="basic">기본 의뢰 — 일반적인 위협, 순찰 지원 등</option>
+                <option value="danger">위험 의뢰 — 고급 이드, 대규모 위협 등</option>
+              </select>
+            </div>
+            <span class="form-error" id="err-type" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="req-detail">상세 내용 <span class="required" aria-hidden="true">*</span></label>
+            <textarea id="req-detail" name="detail" rows="5" placeholder="의뢰 내용을 최대한 자세히 작성해 주세요. 발생 위치, 시간, 위협 규모 등을 포함해 주시면 빠른 대응에 도움이 됩니다." required></textarea>
+            <span class="form-error" id="err-detail" role="alert"></span>
+          </div>
+          <div class="form-footer">
+            <p class="form-notice">※ 허위 의뢰 접수 시 법적 책임이 따를 수 있습니다.</p>
+            <button type="submit" class="btn btn-primary btn-submit">의뢰 접수하기</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-emblem large" aria-hidden="true">⬡</span>
+        <span class="footer-name">ASSERO</span>
+        <p class="footer-tagline">평화로운 일상을 위하여.</p>
+      </div>
+      <nav class="footer-nav" aria-label="푸터 메뉴">
+        <ul>
+          <li><a href="#home">홈</a></li>
+          <li><a href="#about">소개</a></li>
+          <li><a href="#board">게시판</a></li>
+          <li><a href="#careers">채용&amp;견학</a></li>
+          <li><a href="#contact">의뢰 문의</a></li>
+          <li><a href="#request">의뢰 접수</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copy">© 2099 ASSERO Hero Organization. All rights reserved. · Utopia</p>
+    </div>
+  </footer>
+
+  <!-- ===== MODAL ===== -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close" aria-label="닫기">✕</button>
+      <h3 class="modal-title" id="modal-title"></h3>
+      <p  class="modal-body"  id="modal-body"></p>
+      <button class="btn btn-primary" id="modal-confirm">확인</button>
+    </div>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
